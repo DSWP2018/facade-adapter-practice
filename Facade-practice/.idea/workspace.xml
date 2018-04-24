@@ -55,8 +55,8 @@
       <file leaf-file-name="GraduationFacadeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../facade-adapter-practice/Facade-practice/src/Test/java/GraduationFacadeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="469">
+              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/GraduationFacade.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/Test/java/GraduationFacadeTest.java" />
+        <option value="$PROJECT_DIR$/../facade-adapter-practice/Facade-practice/src/Test/java/GraduationFacadeTest.java" />
       </list>
     </option>
   </component>
@@ -546,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../facade-adapter-practice/Facade-practice/src/Test/java/GraduationFacadeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="469">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
