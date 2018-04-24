@@ -1,11 +1,21 @@
 package components.music;
 
 public class DJAdapter implements MusicBand {
-    DJ dj;
+    private DJ dj;
 
     public DJAdapter(DJ dj){
         this.dj = dj;
     }
+
+    public DJ getDj() {
+        return dj;
+    }
+
+    public void setDj(DJ dj) {
+        this.dj = dj;
+    }
+
+
 
     @Override
     public void setInstruments() {

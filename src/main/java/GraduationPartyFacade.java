@@ -10,6 +10,17 @@ public class GraduationPartyFacade {
     private TablesOrganization tablesOrganization;
     private MusicBand musicBand;
 
+    public String organizeParty(){
+        partyRoom.setClosedRoom();
+        decoration.setDecoration();
+        tablesOrganization.organizeTables();
+        musicBand.play();
+        beverage.serveDrink();
+        banquet.serveDessert();
+        entertainment.playConmemorativeVideo();
+        return "Party organized";
+    }
+
     public Banquet getBanquet() {
         return banquet;
     }
