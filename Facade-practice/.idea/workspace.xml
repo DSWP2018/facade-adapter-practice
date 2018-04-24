@@ -16,8 +16,8 @@
       <file leaf-file-name="GraduationFacadeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test/java/GraduationFacadeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="50" column="70" lean-forward="true" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
+            <state relative-caret-position="327">
+              <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -307,7 +307,16 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraduationFacadeTest_organizeGraduationwithDJ - 2018.04.23 at 22h 37m 34s.xml">
+    <history-entry file="GraduationFacadeTest_organizeGraduationwithDJ - 2018.04.23 at 23h 25m 51s.xml">
+      <configuration name="GraduationFacadeTest.organizeGraduationwithDJ" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraduationFacadeTest_organizeGraduationwithDJ - 2018.04.23 at 23h 30m 14s.xml">
+      <configuration name="GraduationFacadeTest.organizeGraduationwithDJ" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraduationFacadeTest_organizeGraduationwithDJ - 2018.04.23 at 23h 30m 51s.xml">
+      <configuration name="GraduationFacadeTest.organizeGraduationwithDJ" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraduationFacadeTest_organizeGraduationwithDJ - 2018.04.23 at 23h 33m 47s.xml">
       <configuration name="GraduationFacadeTest.organizeGraduationwithDJ" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GraduationFacadeTest_organizeSetUpTestwithMusicBand - 2018.04.23 at 22h 39m 34s.xml">
@@ -323,6 +332,9 @@
       <configuration name="GraduationFacadeTest.organizeSetUpTestwithMusicBand" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GraduationFacadeTest_organizeSetUpTestwithMusicBand - 2018.04.23 at 23h 22m 13s.xml">
+      <configuration name="GraduationFacadeTest.organizeSetUpTestwithMusicBand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraduationFacadeTest_organizeSetUpTestwithMusicBand - 2018.04.23 at 23h 48m 50s.xml">
       <configuration name="GraduationFacadeTest.organizeSetUpTestwithMusicBand" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -362,7 +374,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -388,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/java/GraduationFacadeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="50" column="70" lean-forward="true" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
+        <state relative-caret-position="327">
+          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding />
         </state>
       </provider>

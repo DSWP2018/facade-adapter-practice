@@ -19,20 +19,20 @@ public class GraduationFacadeTest {
     private DjAdapter djAdapter;
 
     @Before
-    public void setUp(){
-    mokedBanquet = mock(Banquet.class);
-    mockedDecoration = mock(Decoration.class);
-    mockedDrinks = mock(Drinks.class);
-    mockedFlowers = mock(Flowers.class);
-    mockedLightControl = mock(LightControl.class);
-    mockedWaiter = mock(Waiter.class);
-    mockedMusicBand = mock(MusicBand.class);
-    djAdapter = new DjAdapter();
-    djAdapter.setDj(mock(DJ.class));
+    public void setUp() {
+        mokedBanquet = mock(Banquet.class);
+        mockedDecoration = mock(Decoration.class);
+        mockedDrinks = mock(Drinks.class);
+        mockedFlowers = mock(Flowers.class);
+        mockedLightControl = mock(LightControl.class);
+        mockedWaiter = mock(Waiter.class);
+        mockedMusicBand = mock(MusicBand.class);
+        djAdapter = new DjAdapter();
+        djAdapter.setDj(mock(DJ.class));
     }
 
     @Test
-    public void organizeSetUpTestwithMusicBand(){
+    public void organizeSetUpTestwithMusicBand() {
         graduationFacade = new GraduationFacade(mockedMusicBand, mockedDecoration,
                 mockedDrinks, mockedFlowers, mockedLightControl,
                 mockedWaiter, mokedBanquet);
@@ -50,12 +50,5 @@ public class GraduationFacadeTest {
         verify(graduationFacade.getMusicBand(), atLeastOnce()).testSound();
         verify(graduationFacade.getMusicBand(), atLeastOnce()).play();
     }
-
-    @Test
-    public void organizeGraduationwithDJ(){
-        graduationFacade.setMusicBand(djAdapter);
-        graduationFacade.organiceGraduation();
-        verify(graduationFacade, atLeastOnce()).getBanquet().prepareFood();
-
-    }
 }
+
