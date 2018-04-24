@@ -5,7 +5,7 @@ public class GraduationFacade {
     Food food;
     Invitations invitations;
     Lights lights;
-    Logistics logistics;
+    Organization organization;
 
     public void setMusicBand(MusicBand musicBand) {
         this.musicBand = musicBand;
@@ -31,7 +31,17 @@ public class GraduationFacade {
         this.lights = lights;
     }
 
-    public void setLogistics(Logistics logistics) {
-        this.logistics = logistics;
+    public void setOrganization(Organization organization) {
+        this.organization = organization;
+    }
+
+    public void StartParty(){
+        musicBand.play();
+        decoration.decorate();
+        food.serveFood();
+        drinks.serveDrink();
+        invitations.sendInvitations();
+        lights.turnOn();
+        organization.start();
     }
 }
