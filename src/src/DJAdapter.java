@@ -1,5 +1,9 @@
 public class DJAdapter implements MusicBand{
-    DJ dj = new AVICII();
+    DJ dj;
+
+    public DJAdapter(DJ dj) {
+        this.dj = dj;
+    }
 
     @Override
     public void playSong() {

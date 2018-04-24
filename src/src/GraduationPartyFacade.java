@@ -1,12 +1,21 @@
 public class GraduationPartyFacade {
-    Decorations decorations = new Globos();
-    Dinner dinner = new PolloConCrema();
-    Drinks drinks = new Margarita();
-    Furniture furniture= new Mesa();
-    MusicBand musicBand = new LosPunchis();
-    Venue venue = new PlantaBaja();
-    Waiters waiters = new WaiterMesa10();
-    MusicBand dj = new DJAdapter();
+    Decorations decorations;
+    Dinner dinner;
+    Drinks drinks;
+    Furniture furniture;
+    MusicBand musicBand;
+    Venue venue;
+    Waiters waiters;
+
+    public GraduationPartyFacade(Decorations decorations, Dinner dinner, Drinks drinks, Furniture furniture, MusicBand musicBand, Venue venue, Waiters waiters) {
+        this.decorations = decorations;
+        this.dinner = dinner;
+        this.drinks = drinks;
+        this.furniture = furniture;
+        this.musicBand = musicBand;
+        this.venue = venue;
+        this.waiters = waiters;
+    }
 
     public void getEverythingReadyBeforeStarted(){
         venue.clean();
@@ -32,10 +41,5 @@ public class GraduationPartyFacade {
     public void playSomeMusicBand(){
         musicBand.playSong();
         musicBand.askWhereSingleLadiesAt();
-    }
-
-    public void playSomeMusicDJ(){
-        dj.playSong();
-        dj.askWhereSingleLadiesAt();
     }
 }
